@@ -11,10 +11,16 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.black
-            Text("Paviesh")
-                .foregroundStyle(.white)
-                .font(.largeTitle)
-                .bold()
+            VStack{
+                Text("Paviesh")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
+                Text("Val")
+                    .italic()
+                    . foregroundStyle(.blue)
+                    .font(.largeTitle)
+            }
         }
         .padding()
     }
