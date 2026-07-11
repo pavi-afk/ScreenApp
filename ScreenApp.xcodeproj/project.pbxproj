@@ -37,8 +37,8 @@
 		D90E5FC02FF8A3E3003F93C6 = {
 			isa = PBXGroup;
 			children = (
-				D9A620703001DE680061628A /* .GitIgnore */,
 				D90E5FCB2FF8A3E3003F93C6 /* ScreenApp */,
+				D9A6207B3001DF710061628A /* Product */,
 				D90E5FCA2FF8A3E3003F93C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +49,14 @@
 				D90E5FC92FF8A3E3003F93C6 /* ScreenApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A6207B3001DF710061628A /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D9A620703001DE680061628A /* .GitIgnore */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
