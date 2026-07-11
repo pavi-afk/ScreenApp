@@ -22,7 +22,7 @@ struct ContentView: View {
                     .font(.largeTitle)
             }
         }
-        .padding()
+        .ignoresSafeArea()
     }
 }
 
